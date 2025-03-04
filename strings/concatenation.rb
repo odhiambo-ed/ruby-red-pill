@@ -5,3 +5,6 @@ puts greetings
 # With shovel operator
 second_greetings = "All Glory " << "to " << "God"
 puts second_greetings
+
+# With concat method
+third_greetings = "Glory " concat("be ").concat("to ").concat("God")
