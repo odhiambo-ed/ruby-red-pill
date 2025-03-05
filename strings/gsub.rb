@@ -1,0 +1,1 @@
+puts "Edward".gsub("d", "7")

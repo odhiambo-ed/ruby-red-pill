@@ -1,1 +1,1 @@
-puts "Edward".sub("E", "3")
+puts "Edward".sub("d", "3")
