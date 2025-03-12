@@ -3,3 +3,12 @@
 [1, 2, 3, 4].each do |num|
   puts num * num
 end
+
+results = 10.times.map{ |i| i * 3}
+puts "The results of map operation is #{results}"
+
+def my_method
+  yield(10)
+end
+
+my_method { |value| puts "This is the yield value #{value}" }
